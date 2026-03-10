@@ -3,7 +3,6 @@ import joblib
 
 import pandas as pd
 import numpy as np
-import seaborn as sns
 
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import LabelEncoder, StandardScaler, OneHotEncoder
@@ -63,3 +62,4 @@ if st.button("Prediksi Sekarang"):
         st.success(f"✅ Prediksi: **ON TIME** (Kemungkinan: {probability[0][0]:.2%})")
 
         ##st.success(f"✅ Prediksi: **ON TIME**")
+
