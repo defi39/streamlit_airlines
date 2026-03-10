@@ -3,7 +3,6 @@ import joblib
 
 import pandas as pd
 import numpy as np
-import matplotlib.pyplot as plt
 import seaborn as sns
 
 from sklearn.model_selection import train_test_split
@@ -62,4 +61,5 @@ if st.button("Prediksi Sekarang"):
         ##st.error(f"⚠️ Prediksi: **DELAY**")
     else:
         st.success(f"✅ Prediksi: **ON TIME** (Kemungkinan: {probability[0][0]:.2%})")
+
         ##st.success(f"✅ Prediksi: **ON TIME**")
